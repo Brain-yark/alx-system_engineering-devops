@@ -1,0 +1,3 @@
+#!/bin/bash
+input="Chicago"; output=$(echo "$input" | tr -d 'cC'); echo "$output"
+
